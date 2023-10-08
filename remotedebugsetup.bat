@@ -148,7 +148,7 @@ echo             "type": "coreclr", >> launch.json
 echo             "request": "launch", >> launch.json
 echo             "preLaunchTask": "build", >> launch.json
 echo             // If you have changed target frameworks, make sure to update the program path. >> launch.json
-echo             "program": "${workspaceFolder}/bin/Debug/net5.0/${workspaceFolderBasename}.dll", >> launch.json
+echo             "program": "${workspaceFolder}/bin/Debug/net8.0/${workspaceFolderBasename}.dll", >> launch.json
 echo             "args": [], >> launch.json
 echo             "cwd": "${workspaceFolder}", >> launch.json
 echo             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console >> launch.json
