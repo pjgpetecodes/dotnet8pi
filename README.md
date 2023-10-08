@@ -23,7 +23,7 @@ You can read the accompanying blog post for this repository here;
 You can install Dot Net 8 on the Raspberry Pi in one command by executing;
 
 ```
-wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet8pi/master/install.sh | sudo bash
+wget -O - https://raw.githubusercontent.com/pjgpetecodes/dotnet8pi/main/install.sh | sudo bash
 ```
 
 You can see a run through of the installation here;
