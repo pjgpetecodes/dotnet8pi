@@ -97,15 +97,6 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-##
-##
-##
-exit 0
-##
-##
-##
-
-
 echo -e "\e[0m"
 echo -e "\e[1m----------------------------------------"
 echo -e "\e[1m         Installing Dependencies"
