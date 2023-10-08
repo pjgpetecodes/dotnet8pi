@@ -15,7 +15,7 @@ echo -e "\e[1m Installing .NET for the following user"
 echo -e "\e[1m----------------------------------------"
 echo -e "\e[0m"
 
-username=eval getent passwd {$(awk '/^UID_MIN/ {print $2}' /etc/login.defs)..$(awk '/^UID_MAX/ {print $2}' /etc/login.defs)} | cut -d: -f1
+username=$(logname)
 echo -e "\e[1m$username\e[0m"
 
 echo -e "\e[0m"
