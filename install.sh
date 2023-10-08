@@ -213,7 +213,7 @@ echo -e "\e[1mNote: It's highly recommended that you perform a reboot at this po
 echo ""
 echo -e "\e[0mGo ahead and run \e[1mdotnet new console \e[0min a new directory!"
 echo ""
-echo ""
+echo -e "\e[0mRead the getting started blob here: https://bit.ly/dotnet8pi"
 echo ""
 echo -e "\e[0mLet me know how you get on by tweeting me at \e[1;5m@pete_codes\e[0m"
 echo ""
