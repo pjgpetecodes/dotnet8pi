@@ -55,7 +55,8 @@ detectArch() {
     arch=arm32
   
     if command -v uname > /dev/null; then
-        machineCpu=$(uname -m)-$(uname -p)
+        # machineCpu=$(uname -m)-$(uname -p)
+        machineCpu=$(getconf LONG_BIT)
 
         if [[ $machineCpu == *64* ]]; then
             arch=arm64
